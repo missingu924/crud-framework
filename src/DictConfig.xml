@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="gb2312"?>
+<DictConfig version="1.0">
+	<DictConfigList>
+		<DictConfig dictShowName="每页行数" dictName="pageCount" values="10,15,20,25,50,100,500"/>
+		<DictConfig dictShowName="供应商" dictName="vendor" dictTable="vendor" dictKeyCol="cvenname" dictValueCol="cvenname" dictOrderByCol="cvenname" filter=""/>
+	</DictConfigList>
+	<DictRelationList>
+		<DictRelation fromDict="taskType" toDict="taskSubType" fromDictCol="taskType"/>
+	</DictRelationList>
+</DictConfig>
